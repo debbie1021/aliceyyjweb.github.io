@@ -3,6 +3,10 @@
     line-height: 1.5em;
 }
 
+body{
+    background-color: aliceblue;
+    font-family:'Noto serif tc';
+}
 p.redred{
     color:rgb(255, 136, 0);
     font-size: 40px;
