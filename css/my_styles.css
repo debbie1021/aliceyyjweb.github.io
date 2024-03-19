@@ -16,3 +16,12 @@ p.redred{
 .blueblue{
     color:crimson;
 }
+
+.expedu_icon{
+    color:rgb(33, 80, 133);
+}
+
+.expedu_icon:hover{
+    background-color:rgb(33, 80, 133);
+    color:rgb(255, 255, 255)
+}
