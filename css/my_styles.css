@@ -7,8 +7,18 @@ body{
     background-color: aliceblue;
     font-family:'Noto serif tc';
 }
+
+.bg-primary{
+    background-color: rgb(141, 132, 119) ;
+    background-color: url(../assets/img/bg-star.jpg.jpg) !important;
+
+}
+
 p.redred{
-    color:rgb(255, 136, 0);
+    background-color: rgba(182, 118, 44, 0.5);
+    color:rgb(255, 255, 255);
+    border: 10px solid rgb(112, 45, 0);
+    background-image: url(../assets/img/profile.jpg);
     font-size: 40px;
     text-align: center;
 }
