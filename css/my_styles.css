@@ -9,16 +9,17 @@ body{
 }
 
 .bg-primary{
-    background-color: rgb(141, 132, 119) ;
-    background-color: url(../assets/img/bg-star.jpg.jpg) !important;
-
+    background-color: rgb(179, 149, 104) !important;
+    background-image: url(../assets/img/bg2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p.redred{
     background-color: rgba(182, 118, 44, 0.5);
     color:rgb(255, 255, 255);
     border: 10px solid rgb(112, 45, 0);
-    background-image: url(../assets/img/profile.jpg);
+    background-image: url(../assets/img/bg-star.jpg.jpg);
     font-size: 40px;
     text-align: center;
 }
@@ -35,3 +36,33 @@ p.redred{
     background-color:rgb(33, 80, 133);
     color:rgb(255, 255, 255)
 }
+
+ol.alicelist{
+    list-style-type: upper-alpha;
+}
+ol.alicelist>li:hover{
+    background-color: aquamarine;
+    color: brown;
+}
+
+table.alicetable{
+    width: 50%;
+    background-color: rgb(244, 255, 184);
+}
+
+table.alicetable th{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid #949449;
+}
+
+table.alicetable td{
+    text-align: center;
+    border: 1px solid #949449;
+}
+
+table.alicetable tr:nth-child(even){
+    background-color: antiquewhite;
+}
+
