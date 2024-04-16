@@ -15,17 +15,21 @@ body{
     background-size: cover;
 }
 
-p.redred{
-    background-color: rgba(182, 118, 44, 0.5);
+div.redred{
+    padding: 10px 50px 15px;
+    background-color: rgba(44, 182, 108, 0.5);
     color:rgb(255, 255, 255);
-    border: 10px solid rgb(112, 45, 0);
+    border: 5px solid rgb(97, 70, 165);
+    border-radius: 5px;
+    margin: 0px 0px 20px;
+
     background-image: url(../assets/img/bg-star.jpg.jpg);
     font-size: 40px;
     text-align: center;
 }
 
 .blueblue{
-    color:crimson;
+    color:rgb(0, 75, 113);
 }
 
 .expedu_icon{
@@ -66,3 +70,7 @@ table.alicetable tr:nth-child(even){
     background-color: antiquewhite;
 }
 
+.alice80{
+    width: 80%;
+    margin: 0px auto;
+}
