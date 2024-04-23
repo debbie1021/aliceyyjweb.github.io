@@ -80,7 +80,7 @@ table.alicetable tr:nth-child(even){
     color: aliceblue;
     padding: 10px;
     border-radius: 15px;
-    margin: auto;
+    margin: 15px auto;
     height: 100px;
     overflow: scroll;
 }
