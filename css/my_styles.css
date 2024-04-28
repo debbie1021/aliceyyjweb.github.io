@@ -21,7 +21,7 @@ div.redred{
     color:rgb(255, 255, 255);
     border: 5px solid rgb(97, 70, 165);
     border-radius: 5px;
-    margin: 0px 0px 20px;
+    margin: 0px 0px 10px;
 
     background-image: url(../assets/img/bg-star.jpg.jpg);
     font-size: 40px;
@@ -76,11 +76,11 @@ table.alicetable tr:nth-child(even){
 }
 
 .overflowtest{
-    background-color: cadetblue;
-    color: aliceblue;
+    background-color: rgb(204, 245, 246);
+    color: rgb(74, 82, 89);
     padding: 10px;
     border-radius: 15px;
     margin: 15px auto;
-    height: 100px;
+    height: 300px;
     overflow: scroll;
 }
