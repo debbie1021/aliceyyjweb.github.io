@@ -88,3 +88,13 @@ table.alicetable tr:nth-child(even){
 .yyjlink{
     color:rgb(54, 54, 125)
 }
+
+.overflowexp{
+    background-color: rgb(219, 235, 255);
+    color: rgb(74, 82, 89);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px;
+    overflow: visible;
+    background: linear-gradient(to right, rgb(219, 235, 255), #ffffff);
+}
